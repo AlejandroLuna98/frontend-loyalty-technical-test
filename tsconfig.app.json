@@ -22,5 +22,10 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
+  "baseUrl": "./",
+  "paths": {
+    "@components/*": ["src/components/*"],
+    "@utils/*": ["src/utils/*"]
+  },
   "include": ["src", "declarations.d.ts"]
 }
