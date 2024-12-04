@@ -6,10 +6,9 @@ export const getCharactersService = async (): Promise<
 > => {
   try {
     const response = await api.get('/character');
-    console.log(response.data);
     return response.data;
   } catch (error) {
     console.error(error);
-    throw error;
+    throw new Error('Failed to fetch characters');
   }
 };

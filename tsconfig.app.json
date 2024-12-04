@@ -17,16 +17,15 @@
 
     /* Linting */
     "strict": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
+  },
+  "baseUrl": "./",
+  "paths": {
+    "@components/*": ["src/components/*"],
+    "@utils/*": ["src/utils/*"]
   },
   "include": ["src", "declarations.d.ts"]
 }

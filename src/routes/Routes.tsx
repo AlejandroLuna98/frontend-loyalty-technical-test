@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from 'react-router';
 import { Character, Characters, Favorites, NotFound } from '../pages';
 
-export const RoutesApp = () => {
+export const RoutesApp = (): JSX.Element => {
   return (
     <BrowserRouter>
       <Routes>
